@@ -1,0 +1,179 @@
+:root {
+    --primary-color: #A0BCC2;
+    --secondry-color: #DAE5D0;
+    --left: 120px;
+}
+
+
+/* Start Global Rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Small */
+
+
+/*@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* Medium */
+
+
+/*@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/* Large */
+
+
+/*@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}*/
+
+body {
+    background-color: var(--primary-color);
+}
+
+
+/* End Global Rules */
+
+
+/* Start Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: var(--secondry-color);
+}
+
+.cv {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 8%;
+    top: 4%;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cv:hover {
+    background-color: var(--secondry-color);
+}
+
+
+/* End Bar */
+
+
+/* Photo */
+
+.photo {
+    background-color: var(--primary-color);
+    width: 400px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+
+/* photo */
+
+
+/* Start Text */
+
+.all {
+    border-left: 80px;
+    border-bottom: 50px;
+}
+
+.first {
+    color: white;
+    position: absolute;
+    left: var(--left);
+    top: 37%;
+    font-weight: bold;
+    background-color: var(--secondry-color);
+    padding: 5px 10px;
+}
+
+.name {
+    color: white;
+    position: absolute;
+    left: var(--left);
+    top: 45%;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.pro {
+    color: white;
+    position: absolute;
+    left: var(--left);
+    top: 57%;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: -2px;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    left: var(--left);
+    top: 67%;
+    width: 650px;
+    line-height: 30px;
+    font-weight: bold;
+}
